@@ -2,6 +2,7 @@ require 'pry'
 
 class Person
 
+  attr_writer :happiness, :hygiene, :bank_account
   attr_reader :name, :happiness, :hygiene, :bank_account
 
   def initialize(name)
